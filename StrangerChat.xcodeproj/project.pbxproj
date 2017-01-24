@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60C4A5071E373A7A006A4F0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A5061E373A7A006A4F0C /* AppDelegate.swift */; };
+		60C4A51C1E373A7A006A4F0C /* StrangerChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A51B1E373A7A006A4F0C /* StrangerChatTests.swift */; };
+		60C4A5271E373A7A006A4F0C /* StrangerChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A5261E373A7A006A4F0C /* StrangerChatUITests.swift */; };
+		60C4A57E1E374016006A4F0C /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A5351E374015006A4F0C /* AppFonts.swift */; };
+		60C4A57F1E374016006A4F0C /* AppScreenName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A5361E374015006A4F0C /* AppScreenName.swift */; };
+		60C4A5801E374016006A4F0C /* AppSegueName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A5371E374015006A4F0C /* AppSegueName.swift */; };
+		60C4A5811E374016006A4F0C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A5381E374015006A4F0C /* Constant.swift */; };
+		60C4A5821E374016006A4F0C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A53A1E374015006A4F0C /* Extension.swift */; };
+		60C4A5831E374016006A4F0C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A53B1E374015006A4F0C /* String+Extension.swift */; };
+		60C4A5841E374016006A4F0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A53C1E374015006A4F0C /* GoogleService-Info.plist */; };
+		60C4A5851E374016006A4F0C /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A53F1E374015006A4F0C /* AlertManager.swift */; };
+		60C4A5861E374016006A4F0C /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A5411E374015006A4F0C /* Converter.swift */; };
+		60C4A5871E374016006A4F0C /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A5431E374015006A4F0C /* DataAccess.swift */; };
+		60C4A5881E374016006A4F0C /* FrameOservingInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A5451E374015006A4F0C /* FrameOservingInputAccessoryView.swift */; };
+		60C4A5931E374016006A4F0C /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A5581E374015006A4F0C /* PlaceholderTextView.swift */; };
+		60C4A5941E374016006A4F0C /* ViewControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A55A1E374015006A4F0C /* ViewControllerManager.swift */; };
+		60C4A5961E374016006A4F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A55F1E374015006A4F0C /* Assets.xcassets */; };
+		60C4A5971E374016006A4F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A5601E374015006A4F0C /* LaunchScreen.storyboard */; };
+		60C4A5981E374016006A4F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A5621E374015006A4F0C /* Main.storyboard */; };
+		60C4A5991E374016006A4F0C /* Heebo-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A5661E374015006A4F0C /* Heebo-Black.otf */; };
+		60C4A59A1E374016006A4F0C /* Heebo-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A5671E374015006A4F0C /* Heebo-Bold.otf */; };
+		60C4A59B1E374016006A4F0C /* Heebo-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A5681E374015006A4F0C /* Heebo-ExtraBold.otf */; };
+		60C4A59C1E374016006A4F0C /* Heebo-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A5691E374015006A4F0C /* Heebo-Light.otf */; };
+		60C4A59D1E374016006A4F0C /* Heebo-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A56A1E374015006A4F0C /* Heebo-Medium.otf */; };
+		60C4A59E1E374016006A4F0C /* Heebo-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A56B1E374015006A4F0C /* Heebo-Regular.otf */; };
+		60C4A59F1E374016006A4F0C /* Heebo-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A56C1E374015006A4F0C /* Heebo-Thin.otf */; };
+		60C4A5A01E374016006A4F0C /* License Agreement for SF UI Font.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A56E1E374015006A4F0C /* License Agreement for SF UI Font.rtf */; };
+		60C4A5A11E374016006A4F0C /* SF-UI-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A56F1E374015006A4F0C /* SF-UI-Display-Black.otf */; };
+		60C4A5A21E374016006A4F0C /* SF-UI-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A5701E374015006A4F0C /* SF-UI-Display-Bold.otf */; };
+		60C4A5A31E374016006A4F0C /* SF-UI-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A5711E374015006A4F0C /* SF-UI-Display-Heavy.otf */; };
+		60C4A5A41E374016006A4F0C /* SF-UI-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A5721E374015006A4F0C /* SF-UI-Display-Light.otf */; };
+		60C4A5A51E374016006A4F0C /* SF-UI-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A5731E374015006A4F0C /* SF-UI-Display-Medium.otf */; };
+		60C4A5A61E374016006A4F0C /* SF-UI-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A5741E374015006A4F0C /* SF-UI-Display-Regular.otf */; };
+		60C4A5A71E374016006A4F0C /* SF-UI-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A5751E374015006A4F0C /* SF-UI-Display-Semibold.otf */; };
+		60C4A5A81E374016006A4F0C /* SF-UI-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A5761E374015006A4F0C /* SF-UI-Display-Thin.otf */; };
+		60C4A5A91E374016006A4F0C /* SF-UI-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4A5771E374015006A4F0C /* SF-UI-Display-Ultralight.otf */; };
+		60C4A5AA1E374016006A4F0C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4A57C1E374015006A4F0C /* BaseViewController.swift */; };
+		A32FBED729DE86B4209B6D2B /* Pods_StrangerChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C821BFF2233EF1D364349F1 /* Pods_StrangerChat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60C4A5181E373A7A006A4F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C4A4FB1E373A7A006A4F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C4A5021E373A7A006A4F0C;
+			remoteInfo = StrangerChat;
+		};
+		60C4A5231E373A7A006A4F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C4A4FB1E373A7A006A4F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C4A5021E373A7A006A4F0C;
+			remoteInfo = StrangerChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C821BFF2233EF1D364349F1 /* Pods_StrangerChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrangerChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C4A5031E373A7A006A4F0C /* StrangerChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrangerChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C4A5061E373A7A006A4F0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60C4A5121E373A7A006A4F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C4A5171E373A7A006A4F0C /* StrangerChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrangerChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C4A51B1E373A7A006A4F0C /* StrangerChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangerChatTests.swift; sourceTree = "<group>"; };
+		60C4A51D1E373A7A006A4F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C4A5221E373A7A006A4F0C /* StrangerChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrangerChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C4A5261E373A7A006A4F0C /* StrangerChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangerChatUITests.swift; sourceTree = "<group>"; };
+		60C4A5281E373A7A006A4F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C4A5351E374015006A4F0C /* AppFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		60C4A5361E374015006A4F0C /* AppScreenName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppScreenName.swift; sourceTree = "<group>"; };
+		60C4A5371E374015006A4F0C /* AppSegueName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSegueName.swift; sourceTree = "<group>"; };
+		60C4A5381E374015006A4F0C /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		60C4A53A1E374015006A4F0C /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		60C4A53B1E374015006A4F0C /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		60C4A53C1E374015006A4F0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		60C4A53F1E374015006A4F0C /* AlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		60C4A5411E374015006A4F0C /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		60C4A5431E374015006A4F0C /* DataAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
+		60C4A5451E374015006A4F0C /* FrameOservingInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameOservingInputAccessoryView.swift; sourceTree = "<group>"; };
+		60C4A5581E374015006A4F0C /* PlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
+		60C4A55A1E374015006A4F0C /* ViewControllerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerManager.swift; sourceTree = "<group>"; };
+		60C4A55F1E374015006A4F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60C4A5611E374015006A4F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60C4A5631E374015006A4F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60C4A5661E374015006A4F0C /* Heebo-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Black.otf"; sourceTree = "<group>"; };
+		60C4A5671E374015006A4F0C /* Heebo-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Bold.otf"; sourceTree = "<group>"; };
+		60C4A5681E374015006A4F0C /* Heebo-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-ExtraBold.otf"; sourceTree = "<group>"; };
+		60C4A5691E374015006A4F0C /* Heebo-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Light.otf"; sourceTree = "<group>"; };
+		60C4A56A1E374015006A4F0C /* Heebo-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Medium.otf"; sourceTree = "<group>"; };
+		60C4A56B1E374015006A4F0C /* Heebo-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Regular.otf"; sourceTree = "<group>"; };
+		60C4A56C1E374015006A4F0C /* Heebo-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Thin.otf"; sourceTree = "<group>"; };
+		60C4A56E1E374015006A4F0C /* License Agreement for SF UI Font.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "License Agreement for SF UI Font.rtf"; sourceTree = "<group>"; };
+		60C4A56F1E374015006A4F0C /* SF-UI-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Black.otf"; sourceTree = "<group>"; };
+		60C4A5701E374015006A4F0C /* SF-UI-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Bold.otf"; sourceTree = "<group>"; };
+		60C4A5711E374015006A4F0C /* SF-UI-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Heavy.otf"; sourceTree = "<group>"; };
+		60C4A5721E374015006A4F0C /* SF-UI-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Light.otf"; sourceTree = "<group>"; };
+		60C4A5731E374015006A4F0C /* SF-UI-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Medium.otf"; sourceTree = "<group>"; };
+		60C4A5741E374015006A4F0C /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
+		60C4A5751E374015006A4F0C /* SF-UI-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Semibold.otf"; sourceTree = "<group>"; };
+		60C4A5761E374015006A4F0C /* SF-UI-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Thin.otf"; sourceTree = "<group>"; };
+		60C4A5771E374015006A4F0C /* SF-UI-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		60C4A57C1E374015006A4F0C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		60C4A5AC1E374080006A4F0C /* StrangerChat-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StrangerChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		B05C2F688D7F549351D25EE4 /* Pods-StrangerChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrangerChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StrangerChat/Pods-StrangerChat.debug.xcconfig"; sourceTree = "<group>"; };
+		F21E3495B7CA1285F12D90D0 /* Pods-StrangerChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrangerChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-StrangerChat/Pods-StrangerChat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C4A5001E373A7A006A4F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32FBED729DE86B4209B6D2B /* Pods_StrangerChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C4A5141E373A7A006A4F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C4A51F1E373A7A006A4F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60C4A4FA1E373A7A006A4F0C = {
+			isa = PBXGroup;
+			children = (
+				60C4A5051E373A7A006A4F0C /* StrangerChat */,
+				60C4A51A1E373A7A006A4F0C /* StrangerChatTests */,
+				60C4A5251E373A7A006A4F0C /* StrangerChatUITests */,
+				60C4A5041E373A7A006A4F0C /* Products */,
+				E20F7699702F099BB649D830 /* Pods */,
+				624F8CF0CD2149221EDBF95F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60C4A5041E373A7A006A4F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A5031E373A7A006A4F0C /* StrangerChat.app */,
+				60C4A5171E373A7A006A4F0C /* StrangerChatTests.xctest */,
+				60C4A5221E373A7A006A4F0C /* StrangerChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60C4A5051E373A7A006A4F0C /* StrangerChat */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A5061E373A7A006A4F0C /* AppDelegate.swift */,
+				60C4A53C1E374015006A4F0C /* GoogleService-Info.plist */,
+				60C4A5121E373A7A006A4F0C /* Info.plist */,
+				60C4A5AC1E374080006A4F0C /* StrangerChat-Bridging-Header.h */,
+				60C4A5341E374015006A4F0C /* Constants */,
+				60C4A5391E374015006A4F0C /* Extensions */,
+				60C4A53D1E374015006A4F0C /* Libs */,
+				60C4A55B1E374015006A4F0C /* Models */,
+				60C4A55C1E374015006A4F0C /* Protocols */,
+				60C4A5AB1E37403D006A4F0C /* Enums */,
+				60C4A55E1E374015006A4F0C /* Resources */,
+				60C4A5781E374015006A4F0C /* Views */,
+			);
+			path = StrangerChat;
+			sourceTree = "<group>";
+		};
+		60C4A51A1E373A7A006A4F0C /* StrangerChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A51B1E373A7A006A4F0C /* StrangerChatTests.swift */,
+				60C4A51D1E373A7A006A4F0C /* Info.plist */,
+			);
+			path = StrangerChatTests;
+			sourceTree = "<group>";
+		};
+		60C4A5251E373A7A006A4F0C /* StrangerChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A5261E373A7A006A4F0C /* StrangerChatUITests.swift */,
+				60C4A5281E373A7A006A4F0C /* Info.plist */,
+			);
+			path = StrangerChatUITests;
+			sourceTree = "<group>";
+		};
+		60C4A5341E374015006A4F0C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A5351E374015006A4F0C /* AppFonts.swift */,
+				60C4A5361E374015006A4F0C /* AppScreenName.swift */,
+				60C4A5371E374015006A4F0C /* AppSegueName.swift */,
+				60C4A5381E374015006A4F0C /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		60C4A5391E374015006A4F0C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A53A1E374015006A4F0C /* Extension.swift */,
+				60C4A53B1E374015006A4F0C /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		60C4A53D1E374015006A4F0C /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A53E1E374015006A4F0C /* AlertManager */,
+				60C4A5401E374015006A4F0C /* Converter */,
+				60C4A5421E374015006A4F0C /* DataAccess */,
+				60C4A5441E374015006A4F0C /* FrameOservingInputAccessoryView */,
+				60C4A5571E374015006A4F0C /* PlaceholderTextView */,
+				60C4A5591E374015006A4F0C /* ViewControllerManager */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		60C4A53E1E374015006A4F0C /* AlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A53F1E374015006A4F0C /* AlertManager.swift */,
+			);
+			path = AlertManager;
+			sourceTree = "<group>";
+		};
+		60C4A5401E374015006A4F0C /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A5411E374015006A4F0C /* Converter.swift */,
+			);
+			path = Converter;
+			sourceTree = "<group>";
+		};
+		60C4A5421E374015006A4F0C /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A5431E374015006A4F0C /* DataAccess.swift */,
+			);
+			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		60C4A5441E374015006A4F0C /* FrameOservingInputAccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A5451E374015006A4F0C /* FrameOservingInputAccessoryView.swift */,
+			);
+			path = FrameOservingInputAccessoryView;
+			sourceTree = "<group>";
+		};
+		60C4A5571E374015006A4F0C /* PlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A5581E374015006A4F0C /* PlaceholderTextView.swift */,
+			);
+			path = PlaceholderTextView;
+			sourceTree = "<group>";
+		};
+		60C4A5591E374015006A4F0C /* ViewControllerManager */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A55A1E374015006A4F0C /* ViewControllerManager.swift */,
+			);
+			path = ViewControllerManager;
+			sourceTree = "<group>";
+		};
+		60C4A55B1E374015006A4F0C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		60C4A55C1E374015006A4F0C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		60C4A55E1E374015006A4F0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A55F1E374015006A4F0C /* Assets.xcassets */,
+				60C4A5601E374015006A4F0C /* LaunchScreen.storyboard */,
+				60C4A5621E374015006A4F0C /* Main.storyboard */,
+				60C4A5641E374015006A4F0C /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60C4A5641E374015006A4F0C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A5651E374015006A4F0C /* Heebo */,
+				60C4A56D1E374015006A4F0C /* SF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		60C4A5651E374015006A4F0C /* Heebo */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A5661E374015006A4F0C /* Heebo-Black.otf */,
+				60C4A5671E374015006A4F0C /* Heebo-Bold.otf */,
+				60C4A5681E374015006A4F0C /* Heebo-ExtraBold.otf */,
+				60C4A5691E374015006A4F0C /* Heebo-Light.otf */,
+				60C4A56A1E374015006A4F0C /* Heebo-Medium.otf */,
+				60C4A56B1E374015006A4F0C /* Heebo-Regular.otf */,
+				60C4A56C1E374015006A4F0C /* Heebo-Thin.otf */,
+			);
+			path = Heebo;
+			sourceTree = "<group>";
+		};
+		60C4A56D1E374015006A4F0C /* SF */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A56E1E374015006A4F0C /* License Agreement for SF UI Font.rtf */,
+				60C4A56F1E374015006A4F0C /* SF-UI-Display-Black.otf */,
+				60C4A5701E374015006A4F0C /* SF-UI-Display-Bold.otf */,
+				60C4A5711E374015006A4F0C /* SF-UI-Display-Heavy.otf */,
+				60C4A5721E374015006A4F0C /* SF-UI-Display-Light.otf */,
+				60C4A5731E374015006A4F0C /* SF-UI-Display-Medium.otf */,
+				60C4A5741E374015006A4F0C /* SF-UI-Display-Regular.otf */,
+				60C4A5751E374015006A4F0C /* SF-UI-Display-Semibold.otf */,
+				60C4A5761E374015006A4F0C /* SF-UI-Display-Thin.otf */,
+				60C4A5771E374015006A4F0C /* SF-UI-Display-Ultralight.otf */,
+			);
+			path = SF;
+			sourceTree = "<group>";
+		};
+		60C4A5781E374015006A4F0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A5791E374015006A4F0C /* Base */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60C4A5791E374015006A4F0C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A57A1E374015006A4F0C /* CustomViews */,
+				60C4A57B1E374015006A4F0C /* ViewController */,
+				60C4A57D1E374016006A4F0C /* ViewModel */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		60C4A57A1E374015006A4F0C /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		60C4A57B1E374015006A4F0C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				60C4A57C1E374015006A4F0C /* BaseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		60C4A57D1E374016006A4F0C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		60C4A5AB1E37403D006A4F0C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		624F8CF0CD2149221EDBF95F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C821BFF2233EF1D364349F1 /* Pods_StrangerChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20F7699702F099BB649D830 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B05C2F688D7F549351D25EE4 /* Pods-StrangerChat.debug.xcconfig */,
+				F21E3495B7CA1285F12D90D0 /* Pods-StrangerChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60C4A5021E373A7A006A4F0C /* StrangerChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C4A52B1E373A7A006A4F0C /* Build configuration list for PBXNativeTarget "StrangerChat" */;
+			buildPhases = (
+				87C4E6AED4A7B1A0FC825FB4 /* [CP] Check Pods Manifest.lock */,
+				60C4A4FF1E373A7A006A4F0C /* Sources */,
+				60C4A5001E373A7A006A4F0C /* Frameworks */,
+				60C4A5011E373A7A006A4F0C /* Resources */,
+				419C3959214E37FC71B911E5 /* [CP] Embed Pods Frameworks */,
+				87055BF78BA4E80AA9B71AA8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrangerChat;
+			productName = StrangerChat;
+			productReference = 60C4A5031E373A7A006A4F0C /* StrangerChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60C4A5161E373A7A006A4F0C /* StrangerChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C4A52E1E373A7A006A4F0C /* Build configuration list for PBXNativeTarget "StrangerChatTests" */;
+			buildPhases = (
+				60C4A5131E373A7A006A4F0C /* Sources */,
+				60C4A5141E373A7A006A4F0C /* Frameworks */,
+				60C4A5151E373A7A006A4F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60C4A5191E373A7A006A4F0C /* PBXTargetDependency */,
+			);
+			name = StrangerChatTests;
+			productName = StrangerChatTests;
+			productReference = 60C4A5171E373A7A006A4F0C /* StrangerChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60C4A5211E373A7A006A4F0C /* StrangerChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C4A5311E373A7A006A4F0C /* Build configuration list for PBXNativeTarget "StrangerChatUITests" */;
+			buildPhases = (
+				60C4A51E1E373A7A006A4F0C /* Sources */,
+				60C4A51F1E373A7A006A4F0C /* Frameworks */,
+				60C4A5201E373A7A006A4F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60C4A5241E373A7A006A4F0C /* PBXTargetDependency */,
+			);
+			name = StrangerChatUITests;
+			productName = StrangerChatUITests;
+			productReference = 60C4A5221E373A7A006A4F0C /* StrangerChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60C4A4FB1E373A7A006A4F0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SmartApps;
+				TargetAttributes = {
+					60C4A5021E373A7A006A4F0C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 556LZQ7WUH;
+						ProvisioningStyle = Automatic;
+					};
+					60C4A5161E373A7A006A4F0C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 556LZQ7WUH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60C4A5021E373A7A006A4F0C;
+					};
+					60C4A5211E373A7A006A4F0C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 556LZQ7WUH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60C4A5021E373A7A006A4F0C;
+					};
+				};
+			};
+			buildConfigurationList = 60C4A4FE1E373A7A006A4F0C /* Build configuration list for PBXProject "StrangerChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60C4A4FA1E373A7A006A4F0C;
+			productRefGroup = 60C4A5041E373A7A006A4F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60C4A5021E373A7A006A4F0C /* StrangerChat */,
+				60C4A5161E373A7A006A4F0C /* StrangerChatTests */,
+				60C4A5211E373A7A006A4F0C /* StrangerChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60C4A5011E373A7A006A4F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C4A5991E374016006A4F0C /* Heebo-Black.otf in Resources */,
+				60C4A5A51E374016006A4F0C /* SF-UI-Display-Medium.otf in Resources */,
+				60C4A5A41E374016006A4F0C /* SF-UI-Display-Light.otf in Resources */,
+				60C4A59A1E374016006A4F0C /* Heebo-Bold.otf in Resources */,
+				60C4A5971E374016006A4F0C /* LaunchScreen.storyboard in Resources */,
+				60C4A5841E374016006A4F0C /* GoogleService-Info.plist in Resources */,
+				60C4A5A21E374016006A4F0C /* SF-UI-Display-Bold.otf in Resources */,
+				60C4A5A01E374016006A4F0C /* License Agreement for SF UI Font.rtf in Resources */,
+				60C4A5A61E374016006A4F0C /* SF-UI-Display-Regular.otf in Resources */,
+				60C4A59C1E374016006A4F0C /* Heebo-Light.otf in Resources */,
+				60C4A5A11E374016006A4F0C /* SF-UI-Display-Black.otf in Resources */,
+				60C4A5A31E374016006A4F0C /* SF-UI-Display-Heavy.otf in Resources */,
+				60C4A59F1E374016006A4F0C /* Heebo-Thin.otf in Resources */,
+				60C4A59B1E374016006A4F0C /* Heebo-ExtraBold.otf in Resources */,
+				60C4A5A91E374016006A4F0C /* SF-UI-Display-Ultralight.otf in Resources */,
+				60C4A5961E374016006A4F0C /* Assets.xcassets in Resources */,
+				60C4A59E1E374016006A4F0C /* Heebo-Regular.otf in Resources */,
+				60C4A5A81E374016006A4F0C /* SF-UI-Display-Thin.otf in Resources */,
+				60C4A59D1E374016006A4F0C /* Heebo-Medium.otf in Resources */,
+				60C4A5A71E374016006A4F0C /* SF-UI-Display-Semibold.otf in Resources */,
+				60C4A5981E374016006A4F0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C4A5151E373A7A006A4F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C4A5201E373A7A006A4F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		419C3959214E37FC71B911E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StrangerChat/Pods-StrangerChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87055BF78BA4E80AA9B71AA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StrangerChat/Pods-StrangerChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C4E6AED4A7B1A0FC825FB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60C4A4FF1E373A7A006A4F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C4A5831E374016006A4F0C /* String+Extension.swift in Sources */,
+				60C4A5801E374016006A4F0C /* AppSegueName.swift in Sources */,
+				60C4A5AA1E374016006A4F0C /* BaseViewController.swift in Sources */,
+				60C4A5871E374016006A4F0C /* DataAccess.swift in Sources */,
+				60C4A57F1E374016006A4F0C /* AppScreenName.swift in Sources */,
+				60C4A5931E374016006A4F0C /* PlaceholderTextView.swift in Sources */,
+				60C4A5821E374016006A4F0C /* Extension.swift in Sources */,
+				60C4A5861E374016006A4F0C /* Converter.swift in Sources */,
+				60C4A57E1E374016006A4F0C /* AppFonts.swift in Sources */,
+				60C4A5941E374016006A4F0C /* ViewControllerManager.swift in Sources */,
+				60C4A5071E373A7A006A4F0C /* AppDelegate.swift in Sources */,
+				60C4A5811E374016006A4F0C /* Constant.swift in Sources */,
+				60C4A5851E374016006A4F0C /* AlertManager.swift in Sources */,
+				60C4A5881E374016006A4F0C /* FrameOservingInputAccessoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C4A5131E373A7A006A4F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C4A51C1E373A7A006A4F0C /* StrangerChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C4A51E1E373A7A006A4F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C4A5271E373A7A006A4F0C /* StrangerChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60C4A5191E373A7A006A4F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C4A5021E373A7A006A4F0C /* StrangerChat */;
+			targetProxy = 60C4A5181E373A7A006A4F0C /* PBXContainerItemProxy */;
+		};
+		60C4A5241E373A7A006A4F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C4A5021E373A7A006A4F0C /* StrangerChat */;
+			targetProxy = 60C4A5231E373A7A006A4F0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60C4A5601E374015006A4F0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C4A5611E374015006A4F0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		60C4A5621E374015006A4F0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C4A5631E374015006A4F0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60C4A5291E373A7A006A4F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60C4A52A1E373A7A006A4F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60C4A52C1E373A7A006A4F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B05C2F688D7F549351D25EE4 /* Pods-StrangerChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 556LZQ7WUH;
+				INFOPLIST_FILE = StrangerChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartapps.StrangerChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/StrangerChat/StrangerChat-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		60C4A52D1E373A7A006A4F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F21E3495B7CA1285F12D90D0 /* Pods-StrangerChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 556LZQ7WUH;
+				INFOPLIST_FILE = StrangerChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartapps.StrangerChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/StrangerChat/StrangerChat-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		60C4A52F1E373A7A006A4F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 556LZQ7WUH;
+				INFOPLIST_FILE = StrangerChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartapps.StrangerChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrangerChat.app/StrangerChat";
+			};
+			name = Debug;
+		};
+		60C4A5301E373A7A006A4F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 556LZQ7WUH;
+				INFOPLIST_FILE = StrangerChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartapps.StrangerChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrangerChat.app/StrangerChat";
+			};
+			name = Release;
+		};
+		60C4A5321E373A7A006A4F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 556LZQ7WUH;
+				INFOPLIST_FILE = StrangerChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartapps.StrangerChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StrangerChat;
+			};
+			name = Debug;
+		};
+		60C4A5331E373A7A006A4F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 556LZQ7WUH;
+				INFOPLIST_FILE = StrangerChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartapps.StrangerChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StrangerChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60C4A4FE1E373A7A006A4F0C /* Build configuration list for PBXProject "StrangerChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C4A5291E373A7A006A4F0C /* Debug */,
+				60C4A52A1E373A7A006A4F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C4A52B1E373A7A006A4F0C /* Build configuration list for PBXNativeTarget "StrangerChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C4A52C1E373A7A006A4F0C /* Debug */,
+				60C4A52D1E373A7A006A4F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C4A52E1E373A7A006A4F0C /* Build configuration list for PBXNativeTarget "StrangerChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C4A52F1E373A7A006A4F0C /* Debug */,
+				60C4A5301E373A7A006A4F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C4A5311E373A7A006A4F0C /* Build configuration list for PBXNativeTarget "StrangerChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C4A5321E373A7A006A4F0C /* Debug */,
+				60C4A5331E373A7A006A4F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60C4A4FB1E373A7A006A4F0C /* Project object */;
+}
